@@ -1,0 +1,44 @@
+body {
+  background: #eee;
+}
+
+#content {
+  width: 450px;
+  background: #fff;
+  padding: 20px;
+  padding-top: 0;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #444;
+  margin: 0 auto;
+  max-height: 170px;
+  overflow: hidden;
+
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+#content.open {
+  max-height: 1000px;
+
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+#show-more {
+  background: #1594e5;
+  color: #fff;
+  font-family: sans-serif;
+  display: block;
+  width: 120px;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
